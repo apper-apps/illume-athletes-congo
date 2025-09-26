@@ -7,24 +7,24 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: {
-          50: '#eff6ff',
-          100: '#dbeafe',
-          500: '#0066CC',
-          600: '#0052a3',
-          700: '#004182',
+primary: {
+          50: '#f8fafc',
+          100: '#f1f5f9',
+          500: '#64748B',
+          600: '#475569',
+          700: '#334155',
         },
-        secondary: {
-          50: '#fffbeb',
-          100: '#fef3c7',
-          500: '#FFCC00',
-          600: '#d69e0f',
-          700: '#a16207',
+secondary: {
+          50: '#f8fafc',
+          100: '#f1f5f9',
+          500: '#E2E8F0',
+          600: '#CBD5E1',
+          700: '#94A3B8',
         },
-        accent: {
-          500: '#DC143C',
-          600: '#b91c3c',
-          700: '#9f1239',
+accent: {
+          500: '#E11D48',
+          600: '#BE185D',
+          700: '#9D174D',
         },
         success: {
           500: '#22C55E',
@@ -38,8 +38,8 @@ export default {
         info: {
           500: '#3B82F6',
         },
-        surface: '#FFFFFF',
-        background: '#F5F7FA',
+surface: '#FFFFFF',
+        background: '#FEFEFE',
       },
       fontFamily: {
         'display': ['Poppins', 'sans-serif'],

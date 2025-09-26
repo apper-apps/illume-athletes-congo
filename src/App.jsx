@@ -10,7 +10,7 @@ import StatistiquesPage from "@/components/pages/StatistiquesPage";
 function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-background">
+<div className="min-h-screen bg-slate-50">
         <Layout>
           <Routes>
             <Route path="/" element={<AccueilPage />} />
