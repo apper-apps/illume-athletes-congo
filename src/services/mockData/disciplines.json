@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "nom": "Football",
+    "categorie": "Sports collectifs"
+  },
+  {
+    "Id": 2,
+    "nom": "Basketball",
+    "categorie": "Sports collectifs"
+  },
+  {
+    "Id": 3,
+    "nom": "Athlétisme",
+    "categorie": "Sports individuels"
+  },
+  {
+    "Id": 4,
+    "nom": "Tennis",
+    "categorie": "Sports de raquette"
+  },
+  {
+    "Id": 5,
+    "nom": "Volleyball",
+    "categorie": "Sports collectifs"
+  },
+  {
+    "Id": 6,
+    "nom": "Handball",
+    "categorie": "Sports collectifs"
+  },
+  {
+    "Id": 7,
+    "nom": "Natation",
+    "categorie": "Sports aquatiques"
+  },
+  {
+    "Id": 8,
+    "nom": "Cyclisme",
+    "categorie": "Sports mécaniques"
+  },
+  {
+    "Id": 9,
+    "nom": "Boxe",
+    "categorie": "Sports de combat"
+  },
+  {
+    "Id": 10,
+    "nom": "Judo",
+    "categorie": "Arts martiaux"
+  },
+  {
+    "Id": 11,
+    "nom": "Taekwondo",
+    "categorie": "Arts martiaux"
+  },
+  {
+    "Id": 12,
+    "nom": "Gymnastique",
+    "categorie": "Sports artistiques"
+  },
+  {
+    "Id": 13,
+    "nom": "Haltérophilie",
+    "categorie": "Sports de force"
+  },
+  {
+    "Id": 14,
+    "nom": "Lutte",
+    "categorie": "Sports de combat"
+  },
+  {
+    "Id": 15,
+    "nom": "Escrime",
+    "categorie": "Sports de combat"
+  },
+  {
+    "Id": 16,
+    "nom": "Autres",
+    "categorie": "Autres"
+  }
+]

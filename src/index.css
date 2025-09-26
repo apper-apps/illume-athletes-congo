@@ -1,0 +1,74 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  
+  html {
+    font-family: Inter, system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-background text-gray-900 font-body;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Poppins, system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-500 text-white hover:bg-primary-600 active:bg-primary-700 focus:ring-primary-500;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary-500 text-gray-900 hover:bg-secondary-600 active:bg-secondary-700 focus:ring-secondary-500;
+  }
+  
+  .btn-accent {
+    @apply bg-accent-500 text-white hover:bg-accent-600 active:bg-accent-700 focus:ring-accent-500;
+  }
+  
+  .card {
+    @apply bg-surface rounded-xl shadow-md border border-gray-100 p-6;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors duration-200;
+  }
+}
+
+/* Toast customization */
+.Toastify__toast-container {
+  @apply top-4 right-4;
+  z-index: 9999;
+}
+
+.Toastify__toast {
+  @apply rounded-xl shadow-lg font-body;
+}
+
+.Toastify__toast--success {
+  @apply bg-white border-l-4 border-success-500 text-gray-900;
+}
+
+.Toastify__toast--error {
+  @apply bg-white border-l-4 border-error-500 text-gray-900;
+}
+
+.Toastify__toast--info {
+  @apply bg-white border-l-4 border-info-500 text-gray-900;
+}
+
+.Toastify__toast--warning {
+  @apply bg-white border-l-4 border-warning-500 text-gray-900;
+}
