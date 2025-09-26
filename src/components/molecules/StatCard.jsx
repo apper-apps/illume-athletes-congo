@@ -12,11 +12,11 @@ const StatCard = ({
   className,
   index = 0
 }) => {
-  const colorClasses = {
-    primary: "from-primary-500 to-primary-600 text-white",
-    secondary: "from-secondary-500 to-secondary-600 text-gray-900",
-    accent: "from-accent-500 to-accent-600 text-white",
-    success: "from-success-500 to-green-600 text-white",
+const colorClasses = {
+    primary: "from-blue-500 to-blue-600 text-white",
+    secondary: "from-yellow-400 to-yellow-500 text-gray-900",
+    accent: "from-red-500 to-red-600 text-white",
+    success: "from-green-500 to-green-600 text-white",
   };
 
   return (
